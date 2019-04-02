@@ -138,11 +138,11 @@ textarea {
    }
 
    img {
-
+   	width: 100%;
    }
 
    figure {
-
+           margin: 0;
    }
 
    address {
@@ -197,6 +197,13 @@ header nav ul {
   width: 44%;
 }
 
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
 /* ---------------- Mobile Styles - Homepage --------------- */
 .hero-area {
@@ -412,7 +419,7 @@ footer p {
      text-transform: uppercase;
    }
 
-   
+
    @media only screen and (min-width: 768px) {
     /* TABLET STYLES HERE Style adjustments for viewports that meet the condition */
      .content-wrapper {
