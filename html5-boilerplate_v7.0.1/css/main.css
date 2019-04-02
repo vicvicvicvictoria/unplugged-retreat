@@ -333,8 +333,130 @@ footer p {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+   @media only screen and (min-width: 768px) {
+    /* TABLET STYLES HERE Style adjustments for viewports that meet the condition */
+     .content-wrapper {
+       max-width: 640px;
+       margin: 100px 0;
+     }
+
+     /* Header */
+      header {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      header .content-wrapper {
+        width: 73%;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      header nav {
+        width: 21%;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      header nav ul {
+
+      }
+
+      .header-divider {
+        display: none;
+      }
+
+      /* Hero Area */
+
+/* Aside */
+aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    width: 23%;
+    margin: 0;
+}
+
+/* Features */
+
+.features article {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-flow: column;
+  flex-basis: auto;
+}
+
+.features .features-item-description {
+    width: 23%;
+}
+
+/* Reviews */
+.reviews article {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reviews article div {
+    width: 42%;
+}
+
+/* Footer */
+footer .content-wrapper {
+    width:
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+
+}
+
+footer .contact {
+    margin-bottom: 0;
+}
+
+footer .copyright {
+    width: 50%;
+}
+
+.mission-content {
+     display: flex;
+     justify-content: space-between;
+     align-items:
+ }
+
+ .mission-content p {
+     width: 83%;
+ }
+
+ .contact-section, .content-wrapper h2 {
+     width: 83%;
+ }
+
+ .contact-content {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+}
+.faq .content-wrapper {
+    justify-content: space-between;
+}
+
+.faq-content {
+    flex-basis: 40%;
+}
+
+.faq h2 {
+    width: 100%;
+}
 }
 
 @media print,
